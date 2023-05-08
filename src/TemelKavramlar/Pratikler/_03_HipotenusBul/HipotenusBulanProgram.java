@@ -14,7 +14,7 @@ public class HipotenusBulanProgram {
         System.out.print("2. dik kenarın uzunluğunu giriniz :");
         b = input.nextDouble();
 
-        //Kullanıcıdan alınan verileri hesaplama
+        //Kullanıcıdan alınan verileri hesaplama(Math.sqrt karekök alan koddur)
         c = Math.sqrt((a * a) + (b * b));
         //Hipotenüs uzunluğunu ekrana yazdır
         System.out.println("Hipotenüs uzunluğu : " + c);
