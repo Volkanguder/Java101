@@ -48,13 +48,13 @@ public class BurcBul {
             // 23 Eylül - 22 Ekim arası Terazi burcudur
             zodiac = "Terazi";
         } else if ((month == 10 && day >= 23) || month == 11 && day <= 21) {
-            // 23 Eylül - 22 Ekim arası Akrep burcudur
+            // 23 Ekim - 21 Kasım arası Akrep burcudur
             zodiac = "Akrep";
         } else if ((month == 11 && day >= 22) || (month == 12 && day <= 21)) {
             // 22 Kasım - 21 Aralık arası Yay burcudur
             zodiac = "Yay";
         } else if ((month == 12 && day >= 22) || (month == 1 && day <= 21)) {
-            // 22 Kasım - 21 Aralık arası Oğlak burcudur
+            // 22 Aralık - 21 Ocak arası Oğlak burcudur
             zodiac = "Oğlak";
         } else {
             //Yanlış bilgiler girilirse eğer kullanıcı bilgilendirilerek programı sonlandıracak kodumuz
