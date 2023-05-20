@@ -12,8 +12,10 @@ public class HarmonikSayilar {
         int n = input.nextInt();
 
         double sum = 0.0;
-        for (int i = 1; i <= n; i++) {
+        int i = 1;
+        while (i <= n) {
             sum += 1.0 / i; // Her bir terim için 1/i hesaplanarak toplama eklenir
+            i++;
         }
         System.out.println("Girilen sayının harmonik serisi : " + sum);
     }
