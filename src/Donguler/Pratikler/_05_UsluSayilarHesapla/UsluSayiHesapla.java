@@ -1,4 +1,4 @@
-package Donguler.Pratikler.UsluSayilarHesapla;
+package Donguler.Pratikler._05_UsluSayilarHesapla;
 
 import java.util.Scanner;
 
