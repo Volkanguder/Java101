@@ -46,7 +46,7 @@ public class AtmProjesi {
                         }
                         case 3 -> {
                             System.out.println("*************************");
-                            System.out.println("Bakiyeniz: " + balance +" TL");
+                            System.out.println("Bakiyeniz: " + balance + " TL");
                             System.out.println("*************************");
                         }
                         case 4 -> System.out.println("Tekrar Görüşmek Üzere.");
