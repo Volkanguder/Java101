@@ -54,4 +54,4 @@ Yeni Başlayanlar için Klavye kısayol önerileri
 
     Ctrl + ⇧ Shift + YON TUSLARI İmlecin üzerinde durduğu metni taşıma
 
-    ⇧ Shift + F6 Yeniden adlandırma
+    ⇧ Shift + F6 Yeniden adlandırma (Bu en çok kodlamanızdaki bütün değişken adalarını değiştirmek istediğinizde çok işe yarar)
