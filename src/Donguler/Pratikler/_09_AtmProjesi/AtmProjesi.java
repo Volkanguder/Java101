@@ -6,18 +6,18 @@ public class AtmProjesi {
     public static void main(String[] args) {
         //Kullanıcıdan veri alabilmek için Scanner sınıfı tanımlanır
         Scanner input = new Scanner(System.in);
-        String kullaniciAdi, sifre;
-        int hak = 3;
-        int bakiye = 1500;
-        int secim;
+        String userName, pass;
+        int attempts = 3;
+        int balance = 1500;
+        int choice;
 
-        while (hak > 0) {
+        while (attempts > 0) {
             System.out.print("Kullanıcı Adınız: ");
-            kullaniciAdi = input.nextLine();
+            userName = input.nextLine();
             System.out.print("Parolanız: ");
-            sifre = input.nextLine();
+            pass = input.nextLine();
 
-            if (kullaniciAdi.equals("patika") && sifre.equals("dev123")) {
+            if (userName.equals("patika") && pass.equals("dev123")) {
                 System.out.println("Kodluyoruz Bankasına Hoşgeldiniz!");
                 do {
                     System.out.println("""
@@ -27,40 +27,40 @@ public class AtmProjesi {
                             4- Çıkış
                             """);
                     System.out.print("Lütfen yapmak istediğiniz işlemi seçiniz: ");
-                    secim = input.nextInt();
+                    choice = input.nextInt();
 
-                    switch (secim) {
+                    switch (choice) {
                         case 1 -> {
                             System.out.print("Yatırmak istediğiniz miktar: ");
-                            int miktar = input.nextInt();
-                            bakiye += miktar;
+                            int amount = input.nextInt();
+                            balance += amount;
                         }
                         case 2 -> {
                             System.out.print("Çekmek istediğiniz miktar: ");
-                            int miktar = input.nextInt();
-                            if (miktar > bakiye) {
+                            int amount = input.nextInt();
+                            if (amount > balance) {
                                 System.out.println("Yetersiz bakiye!!!");
                             } else {
-                                bakiye -= miktar;
+                                balance -= amount;
                             }
                         }
                         case 3 -> {
                             System.out.println("*************************");
-                            System.out.println("Bakiyeniz: " + bakiye +" TL");
+                            System.out.println("Bakiyeniz: " + balance +" TL");
                             System.out.println("*************************");
                         }
                         case 4 -> System.out.println("Tekrar Görüşmek Üzere.");
                         default -> System.out.println("Geçersiz bir seçim yaptınız.");
                     }
-                } while (secim != 4);
+                } while (choice != 4);
                 break;
             } else {
-                hak--;
+                attempts--;
                 System.out.println("Geçersiz Kullanıcı Adı ve Şifre. Lütfen tekrar deneyin.");
-                if (hak == 0) {
+                if (attempts == 0) {
                     System.out.println("Hesabınız bloke olmuştur. Lütfen bankayla iletişime geçin.");
                 } else {
-                    System.out.println("Kalan Hak: " + hak);
+                    System.out.println("Kalan Hak: " + attempts);
                 }
             }
         }
