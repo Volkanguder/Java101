@@ -12,6 +12,7 @@ This program uses a method called isPalindrome to check whether a number
 entered by the user or a predefined number is palindrome. The isPalindrome 
 method calculates the reverse of the given number and compares it with the 
 original number to determine if it is a palindrome.
+
 In this example, the variable number is assigned the value 9889. The isPalindrome 
 method calculates the reverse of this number and compares it with the original 
 number. As a result, since 9889 is a palindrome number, the program outputs 
