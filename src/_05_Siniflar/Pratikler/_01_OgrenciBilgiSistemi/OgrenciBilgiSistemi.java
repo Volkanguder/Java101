@@ -19,16 +19,16 @@ public class OgrenciBilgiSistemi {
 
         // Öğrencilerin oluşturulması
         Student s1 = new Student("Volkan GÜDER", 4, "140144015", mat, fizik, kimya);
-        s1.addBulkExamNote(50, 20, 40);
-        s1.isPass();
+        s1.addBulkExamNote(50, 20, 40); // Öğrencinin ders notlarının eklenmesi
+        s1.isPass(); // Geçme durumunun kontrol edilmesi
 
         Student s2 = new Student("Zafer BİÇER", 4, "2211133", mat, fizik, kimya);
-        s2.addBulkExamNote(100, 50, 40);
-        s2.isPass();
+        s2.addBulkExamNote(100, 50, 40); // Öğrencinin ders notlarının eklenmesi
+        s2.isPass(); // Geçme durumunun kontrol edilmesi
 
         Student s3 = new Student("Caner ZENGİN", 4, "221121312", mat, fizik, kimya);
-        s3.addBulkExamNote(50, 20, 40);
-        s3.isPass();
+        s3.addBulkExamNote(50, 20, 40); // Öğrencinin ders notlarının eklenmesi
+        s3.isPass(); // Geçme durumunun kontrol edilmesi
     }
 }
 
