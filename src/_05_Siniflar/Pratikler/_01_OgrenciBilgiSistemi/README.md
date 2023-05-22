@@ -33,11 +33,12 @@
 
 ## Programın genel çalışma mantığını ve yapılar arasındaki ilişkileri
 
-1. Programda dört sınıf bulunmaktadır: "**Student**" (Öğrenci), "**Course**" (Ders), "**Teacher**" (Öğretmen) ve "**Main**" (Ana) sınıfı.
+1. Programda dört sınıf bulunmaktadır: "**Student**" (Öğrenci), "**Course**" (Ders), "**Teacher**" (Öğretmen) ve "**OgrenciBilgiSistemi**" (Ana) sınıfı.
 2. "**Course**" sınıfı, bir dersin özelliklerini ve dersin öğretmenini temsil eder. Dersin adı, kodu, ön eki ve bir öğretmeni vardır.
 3. "**Teacher**" sınıfı, bir öğretmenin adını, telefon numarasını ve branşını temsil eder.
 4. "**Student**" sınıfı, bir öğrencinin adını, sınıfını, öğrenci numarasını ve aldığı dersleri temsil eder. Ayrıca öğrencinin aldığı dersler için sınav notlarını ve ortalama notunu hesaplar.
-5. "**Main**" sınıfı, programın başlangıç noktasını temsil eder. Burada örnek öğrenciler, dersler ve öğretmenler oluşturulur.
+5. "**OgrenciBilgiSistemi**" sınıfı, programın başlangıç noktasını temsil eder. Burada örnek öğrenciler, dersler ve 
+   öğretmenler oluşturulur.
 6. Öğrencilerin notları, sınav notları olarak ve sözlü notları olarak kaydedilir. Sınav notları, "**addBulkExamNote**" metodu kullanılarak eklenir.
 7. Her öğrenci için geçme durumu kontrol edilir. Öğrencinin aldığı derslerin tamamı için notlar girildiyse, ortalama hesaplanır ve geçme durumu belirlenir.
 8. Geçme durumu ve notlar ekrana yazdırılır. Öğrencinin aldığı derslerin notları ve öğretmenleri görüntülenir.
@@ -118,11 +119,11 @@
 
 ------------
 ## General working logic of the program and relationships between the structures
-1. The program consists of four classes: "**Student**", "**Course**", "**Teacher**", and "**Main**".
+1. The program consists of four classes: "**Student**", "**Course**", "**Teacher**", and "**OgrenciBilgiSistemi**".
 2. The "**Course**" class represents the properties of a course and its teacher. It has attributes such as name, code, prefix, and a teacher.
 3. The "**Teacher**" class represents the properties of a teacher, including their name, phone number, and branch.
 4. The "**Student**" class represents the properties of a student, including their name, class, student number, and the courses they take. It also calculates the exam grades and average grades for the student.
-5. The "**Main**" class represents the starting point of the program. Here, sample students, courses, and teachers are created.
+5. The "**OgrenciBilgiSistemi**" class represents the starting point of the program. Here, sample students, courses, and teachers are created.
 6. The students' grades are recorded as exam grades and verbal grades. Exam grades are added using the "**addBulkExamNote**" method.
 7. The program checks the passing status for each student. If grades are entered for all the courses the student takes, the average is calculated, and the passing status is determined.
 8. The passing status and grades are printed to the screen. The grades for the student's courses and their teachers are displayed.

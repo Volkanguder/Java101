@@ -1,6 +1,6 @@
 package _05_Siniflar.Pratikler._01_OgrenciBilgiSistemi;
 
-public class Main {
+public class OgrenciBilgiSistemi {
     public static void main(String[] args) {
         // Derslerin oluşturulması
         Course mat = new Course("Matematik", "MAT101", "MAT");
