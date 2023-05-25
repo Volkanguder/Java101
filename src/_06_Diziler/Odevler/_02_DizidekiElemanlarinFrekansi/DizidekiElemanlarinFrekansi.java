@@ -17,6 +17,8 @@ public class DizidekiElemanlarinFrekansi {
         }
 
         //Frekansları ekrana yazdırıyoruz
+        System.out.println("Dizi: " + java.util.Arrays.toString(array));
+        System.out.println("Tekrar Sayıları:");
         for (int num : frequencyMap.keySet()) {
             System.out.println(num+" sayısı "+frequencyMap.get(num)+" kere tekrar edildi.");
         }
